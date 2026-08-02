@@ -1,9 +1,28 @@
 aid: wrapbook
 name: Wrapbook
-description: Wrapbook is a company surfaced as a portfolio company of a16z, bessemer-venture-partners,
-  uncork-capital and added to the API Evangelist network as a stub for enrichment. This profile is a lead
-  awaiting the enrichment pipeline.
+description: Wrapbook is an AI-powered production payroll and accounting platform for
+  film, TV, and commercial production, combining crew onboarding, payroll, accounts
+  payable, purchase orders, production accounting, and real-time cost reporting in one
+  system. It integrates with accounting software including QuickBooks, Sage Intacct,
+  Oracle NetSuite, and Acumatica, and imports budgets from Movie Magic, Hot Budget, and
+  Showbiz. Wrapbook publishes no public developer API, but its production app exposes an
+  RFC 8414 OAuth 2.0 authorization server with 21 read-only accounting, payroll, budget,
+  and purchase-order scopes that power those integrations. Backed by a16z, Bessemer
+  Venture Partners, and Uncork Capital.
 url: https://raw.githubusercontent.com/api-evangelist/wrapbook/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/40865417
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -14,15 +33,57 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Entertainment
+- Payroll
+- Production Accounting
+- Accounts Payable
+- Film
+- Television
+- Fintech
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 8
+  pass: local-v1
 common:
 - type: Website
   url: https://www.wrapbook.com/
+- type: Blog
+  url: https://www.wrapbook.com/blog
+- type: Support
+  url: https://help.wrapbook.com/
+- type: SignUp
+  url: https://www.wrapbook.com/sign-up
+- type: Login
+  url: https://app.wrapbook.com/login
+- type: TermsOfService
+  url: https://www.wrapbook.com/legal/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.wrapbook.com/legal/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/wrapbook
+- type: Integrations
+  url: https://www.wrapbook.com/integrations
+- type: LLMsTxt
+  url: llms/wrapbook-llms.txt
+- type: WellKnown
+  url: well-known/wrapbook-well-known.yml
+- type: Authentication
+  url: authentication/wrapbook-authentication.yml
+- type: OAuthScopes
+  url: scopes/wrapbook-scopes.yml
+- type: Conformance
+  url: conformance/wrapbook-conformance.yml
+- type: ChangeLog
+  url: changelog/wrapbook-changelog.yml
+- type: DomainSecurity
+  url: security/wrapbook-domain-security.yml

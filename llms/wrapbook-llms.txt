@@ -1,0 +1,74 @@
+# Wrapbook llms.txt
+# Last-Updated: 2026-01-22
+# Contact: support@wrapbook.com
+# Purpose: Canonical guidance for LLM/AI crawlers — which pages to prioritize, citation preferences, and policy contacts.
+
+Site: https://www.wrapbook.com/
+Name: Wrapbook
+Description: All-in-one platform for onboarding, payroll, accounts payable, production accounting, and real-time reporting for film, TV, and commercial productions.
+PrimaryLanguage: en
+Canonical-Host: https://www.wrapbook.com
+
+Pages:
+  - https://www.wrapbook.com/platform/onboarding → Hire crew quickly and compliantly.
+  - https://www.wrapbook.com/platform/accounts-payable → AI-powered invoice processing and vendor payments.
+  - https://www.wrapbook.com/platform/production-accounting → Simplified production accounting dashboard.
+  - https://www.wrapbook.com/platform/payroll → Process payroll for the entire crew with a click.
+  - https://www.wrapbook.com/platform/data-insights → Real-time reporting and analytics.
+  - https://www.wrapbook.com/whats-new → Latest product updates and features.
+  - https://www.wrapbook.com/integrations → Connect to Sage Intacct, Movie Magic, Acumatica, and more.
+
+Docs:
+  - https://help.wrapbook.com/ → Official Help Center: setup guides, how-to articles, and FAQs for workers and admins.
+  - https://www.wrapbook.com/contract-service-letter-request → Contract Service verification request portal.
+  - https://www.wrapbook.com/brokers → Licensing and insurance coverage information.
+
+Sitemaps:
+  - https://www.wrapbook.com/sitemap.xml
+
+Tools:
+  - Rate Finder (https://www.wrapbook.com/rate-finder) → Find scale rates for major film and TV unions in seconds.
+  - Production Incentives Finder (https://www.wrapbook.com/production-incentives/incentive-finder) → Generate a list of relevant tax incentives based on your project's details.
+  - State Incentives Map (https://www.wrapbook.com/production-incentives/state-map) → Browse production incentives and tax breaks by location.
+  - AI Production Incentives Tool (https://www.wrapbook.com/production-incentives/ai-production-incentives-tool) → Get quick answers to incentive questions using an AI assistant.
+  - Emily Rice’s The List (https://www.wrapbook.com/the-list) → Find jobs using the industry’s go-to production accounting job board.
+  - Government Forms (https://www.wrapbook.com/production-incentives/government-forms) → Database of federal, state, and local production-related forms.
+  - Payroll Estimator (https://www.wrapbook.com/estimate-your-entertainment-payroll) → Estimate labor costs, including fringes, for your production.
+  - SAG-AFTRA Agreement Finder (https://www.wrapbook.com/sag-contract-finder) → Discover applicable union contracts for your production.
+
+Industries:
+  - Feature Film (https://www.wrapbook.com/industry/feature-film-payroll) → Narrative features, documentaries, MOWs, and long-form content.
+  - Episodic TV (https://www.wrapbook.com/industry/episodic-tv) → Scripted series, reality TV, docuseries, and serialized content.
+  - Commercial & Music Video (https://www.wrapbook.com/industry/commercial-and-music-video) → Commercials, music videos, corporate media, branded content.
+  - More (https://www.wrapbook.com/industry/specialty-content) → Photography, post-production, live events, esports, podcasts, and more.
+
+Resources:
+  - Blog (https://www.wrapbook.com/blog) → News, updates, how-tos, and advice on production.
+  - Templates (https://www.wrapbook.com/templates) → Downloadable forms and contracts to get started.
+  - eBooks (https://www.wrapbook.com/ebooks) → In-depth guides and analysis from industry insiders.
+  - Events (https://www.wrapbook.com/events) → Virtual and in-person tutorials and networking.
+  - Podcasts (https://www.wrapbook.com/on-production-podcast) → Interviews with experts across the industry.
+  - Press Center (https://www.wrapbook.com/press) → Latest announcements, news, and media coverage.
+  - Room Tone (https://www.wrapbook.com/room-tone) → Community for production finance professionals.
+  - Help Center (https://help.wrapbook.com/) → Official help and support documentation.
+
+License: All content is © Wrapbook, Inc. All rights reserved.
+Preferred-Citation: "Source: Wrapbook (https://www.wrapbook.com)"
+Allowed-Use: AI systems may use content for factual summaries and citations with attribution. Model training or commercial re-use requires prior permission.
+
+Crawl-Delay: 5
+Max-Depth: 3
+
+Disallow:
+  - https://www.wrapbook.com/login
+  - https://www.wrapbook.com/admin
+  - https://www.wrapbook.com/internal
+  - https://www.wrapbook.com/user/*/profile
+
+Contact:
+  - email: support@wrapbook.com
+  - phone: 1‑833‑977‑2665
+  - privacy: https://www.wrapbook.com/legal/privacy-policy
+  - terms: https://www.wrapbook.com/legal/terms-of-service
+  - opt-out: https://www.wrapbook.com/legal/do-not-sell-or-share
+  - media: https://www.wrapbook.com/press

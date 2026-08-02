@@ -1,0 +1,29 @@
+generated: '2026-07-21'
+method: searched
+source: https://app.wrapbook.com/.well-known/oauth-authorization-server
+notes: >-
+  Wrapbook publishes no public developer docs or OpenAPI, so this profile is drawn
+  from the live RFC 8414 authorization-server metadata on the production app host.
+  The server supports only the authorization-code grant with PKCE (S256), public
+  clients (token_endpoint_auth_methods_supported = none), token revocation, and
+  RFC 7591 dynamic client registration. 21 read-only scopes cover the accounting /
+  payroll / budget / purchase-order surface used by its accounting integrations.
+summary:
+  types: [oauth2]
+  oauth2_flows: [authorizationCode]
+  pkce: [S256]
+  public_client: true
+  dynamic_client_registration: true
+  scope_count: 21
+schemes:
+- name: OAuth2
+  type: oauth2
+  issuer: https://app.wrapbook.com/
+  flows:
+  - flow: authorizationCode
+    authorizationUrl: https://app.wrapbook.com/oauth/authorize
+    tokenUrl: https://app.wrapbook.com/oauth/token
+    revocationUrl: https://app.wrapbook.com/oauth/revoke
+    registrationUrl: https://app.wrapbook.com/oauth/register
+    scopes: 21
+  sources: [well-known/wrapbook-oauth-authorization-server.json]

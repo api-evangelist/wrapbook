@@ -1,0 +1,45 @@
+{
+    "issuer": "https://app.wrapbook.com/",
+    "authorization_endpoint": "https://app.wrapbook.com/oauth/authorize",
+    "token_endpoint": "https://app.wrapbook.com/oauth/token",
+    "revocation_endpoint": "https://app.wrapbook.com/oauth/revoke",
+    "registration_endpoint": "https://app.wrapbook.com/oauth/register",
+    "response_types_supported": [
+        "code"
+    ],
+    "grant_types_supported": [
+        "authorization_code"
+    ],
+    "code_challenge_methods_supported": [
+        "S256"
+    ],
+    "token_endpoint_auth_methods_supported": [
+        "none"
+    ],
+    "scopes_supported": [
+        "accounting_ap_invoices:read",
+        "accounting_bank_accounts:read",
+        "accounting_bank_reconciliation:read",
+        "accounting_chart_of_accounts:read",
+        "accounting_chart_reference_mapping:read",
+        "accounting_currencies:read",
+        "accounting_distribution_changes:read",
+        "accounting_electronic_signatures:read",
+        "accounting_journal_entries:read",
+        "accounting_payroll_transactions:read",
+        "accounting_period_management:read",
+        "accounting_reports:read",
+        "accounting_tag_management:read",
+        "accounting_vendor_payments:read",
+        "accounting_vendors:read",
+        "budget_cost_tracking:read",
+        "budget_production_accounting:read",
+        "payroll_invoices:read",
+        "payroll_reports:read",
+        "purchase_orders:read",
+        "core:read"
+    ],
+    "revocation_endpoint_auth_methods_supported": [
+        "none"
+    ]
+}

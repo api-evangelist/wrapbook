@@ -1,0 +1,39 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.wrapbook.com/whats-new
+notes: >-
+  Wrapbook publishes a monthly product "What's New" page rather than an API
+  changelog (no public API surface is documented). Entries are dated by month.
+scheme: monthly-product-updates
+entries:
+- date: '2026-07'
+  title: Smarter Coding, Faster Project Setup & Tighter AP Controls
+  highlights:
+  - Reusable chart-of-accounts templates
+  - Improved vendor coding
+  - Stricter accounts-payable controls
+  - Enhanced timecard context
+  breaking: false
+- date: '2026-06'
+  title: Easier Onboarding and More Context in Your Timecard View
+  highlights:
+  - Streamlined compliance management
+  - Improved timecard information visibility
+  breaking: false
+- date: '2026-05'
+  title: Clean Up Vendor Data and Simplify Startwork
+  highlights:
+  - Duplicate vendor detection
+  - Signature reuse across startwork
+  - Faster navigation
+  breaking: false
+- date: '2024-12-09'
+  title: Wrapbook Wrapped
+  highlights:
+  - Year-end review showcasing platform efficiency gains
+  breaking: false
+- date: '2024-12-05'
+  title: 'AI: Production Finance''s Next Toolset'
+  highlights:
+  - AI-powered workflows for decision-making and collaboration
+  breaking: false

@@ -1,0 +1,63 @@
+generated: '2026-07-21'
+method: searched
+source: https://app.wrapbook.com/.well-known/oauth-authorization-server
+notes: >-
+  Wrapbook publishes no public API reference, but its production app exposes RFC 8414
+  OAuth 2.0 authorization-server metadata declaring 21 read-only scopes covering the
+  accounting, payroll, budgeting, and purchase-order surface the platform shares with
+  its accounting integrations (Sage Intacct, QuickBooks Online, Oracle NetSuite,
+  Acumatica). Scope descriptions below are inferred only from the scope identifiers
+  themselves; Wrapbook publishes no scope reference page.
+schemes:
+- name: OAuth2
+  source: well-known/wrapbook-oauth-authorization-server.json
+  flows:
+  - flow: authorizationCode
+    authorizationUrl: https://app.wrapbook.com/oauth/authorize
+    tokenUrl: https://app.wrapbook.com/oauth/token
+    revocationUrl: https://app.wrapbook.com/oauth/revoke
+    registrationUrl: https://app.wrapbook.com/oauth/register
+    pkce: [S256]
+scopes:
+- scope: accounting_ap_invoices:read
+  flows: [authorizationCode]
+- scope: accounting_bank_accounts:read
+  flows: [authorizationCode]
+- scope: accounting_bank_reconciliation:read
+  flows: [authorizationCode]
+- scope: accounting_chart_of_accounts:read
+  flows: [authorizationCode]
+- scope: accounting_chart_reference_mapping:read
+  flows: [authorizationCode]
+- scope: accounting_currencies:read
+  flows: [authorizationCode]
+- scope: accounting_distribution_changes:read
+  flows: [authorizationCode]
+- scope: accounting_electronic_signatures:read
+  flows: [authorizationCode]
+- scope: accounting_journal_entries:read
+  flows: [authorizationCode]
+- scope: accounting_payroll_transactions:read
+  flows: [authorizationCode]
+- scope: accounting_period_management:read
+  flows: [authorizationCode]
+- scope: accounting_reports:read
+  flows: [authorizationCode]
+- scope: accounting_tag_management:read
+  flows: [authorizationCode]
+- scope: accounting_vendor_payments:read
+  flows: [authorizationCode]
+- scope: accounting_vendors:read
+  flows: [authorizationCode]
+- scope: budget_cost_tracking:read
+  flows: [authorizationCode]
+- scope: budget_production_accounting:read
+  flows: [authorizationCode]
+- scope: payroll_invoices:read
+  flows: [authorizationCode]
+- scope: payroll_reports:read
+  flows: [authorizationCode]
+- scope: purchase_orders:read
+  flows: [authorizationCode]
+- scope: core:read
+  flows: [authorizationCode]

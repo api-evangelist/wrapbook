@@ -1,0 +1,28 @@
+generated: '2026-07-21'
+method: searched
+source: https://app.wrapbook.com/.well-known/oauth-authorization-server
+standards:
+- id: oauth2
+  conforms: true
+  evidence: live RFC 8414 authorization-server metadata at app.wrapbook.com/.well-known/oauth-authorization-server (authorization_code grant)
+- id: rfc8414-authorization-server-metadata
+  conforms: true
+  evidence: /.well-known/oauth-authorization-server returns 200 with issuer, endpoints, scopes_supported
+- id: rfc7636-pkce
+  conforms: true
+  evidence: code_challenge_methods_supported = [S256]
+- id: rfc7591-dynamic-client-registration
+  conforms: true
+  evidence: registration_endpoint = https://app.wrapbook.com/oauth/register
+- id: rfc7009-token-revocation
+  conforms: true
+  evidence: revocation_endpoint = https://app.wrapbook.com/oauth/revoke
+- id: oidc
+  conforms: false
+  evidence: /.well-known/openid-configuration returns 404 on all probed hosts
+- id: rfc9116-security-txt
+  conforms: false
+  evidence: /.well-known/security.txt returns 404 on www, app, and help hosts
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: no public API reference or OpenAPI published to assert error format
